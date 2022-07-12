@@ -1,6 +1,6 @@
-import { useRouter } from 'next/dist/client/router';
-import Image from 'next/image';
-import about from '../assets/1.png';
+import { useRouter } from "next/dist/client/router";
+import Image from "next/image";
+import about from "../assets/1.png";
 // import { menuState1 } from '../atoms/navAtoms';
 // import { useRecoilState } from 'recoil';
 
@@ -15,8 +15,11 @@ function Team() {
             <div className="flex flex-wrap justify-center text-center mb-24">
               <div className="w-full lg:w-6/12 px-4">
                 {/* <!-- Header --> */}
-                <p className="text-Montserrat text-3xl md:text-4xl 2xl:text-5xl text-center md:tracking-wide text-bold text-black mt-3 md:mt-6 mb-10">
-                  Who Is Katie Eary
+                <p className=" text-Montserrat justify-center text-center text-3xl md:text-xl 2xl:text-4xl text-rm_blue">
+                  WHO IS
+                </p>
+                <p className="text-Montserrat text-3xl md:text-4xl 2xl:text-5xl text-center md:tracking-wide text-bold text-black mt-1 mb-10">
+                  Katie Eary
                 </p>
                 {/* <div className="flex relative flex-col items-left"> */}
                 <Image
