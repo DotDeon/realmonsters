@@ -1,14 +1,14 @@
-import Image from 'next/image';
-import about from '../assets/about.png';
+import Image from "next/image";
+import about from "../assets/about.png";
 
 function Roadmap() {
   return (
     <div className="flex flex-col justify-center items-center w-screen bg-rm_pink ">
-      <div className="flex flex-col w-1/2 justify-center items-center p-24">
+      <div className="flex flex-col w-1/2 justify-center items-center p-12 2xl:p-24">
         <h1 className="font-bold text-6xl text-rm_blue text-center">
           The Real Monsters Mission
         </h1>
-        <p className="text-white w-2/3 text-center text-3xl mt-4">
+        <p className="text-white text-Montserrat md:text-xl 2xl:text-2xl text-center md:text-left mt-6 md:mt-12 leading-relaxed font-normal md:px-0 px-10 md:w-5/6 2xl:pr-20">
           We have set long term goals for the projects realization which will
           allow us to fund each set goalpost. Once we reach each sell-trough
           percentage, we will begin realizing the stated goal. With the set

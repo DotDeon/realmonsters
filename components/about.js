@@ -1,5 +1,5 @@
-import Image from 'next/image';
-import about from '../assets/about.png';
+import Image from "next/image";
+import about from "../assets/about.png";
 
 function About() {
   return (
