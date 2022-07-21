@@ -87,7 +87,7 @@ function About() {
             </p> */}
           {/* <div className="inline-flex justify-center items-center bg-red-900 cursor-pointer font-bold font-Montserrat text-xl 2xl:text-2xl text-black rounded-full px-8 py-4 2xl:px-12 2xl:py-6 md:ml-40 lg:ml-0"> */}
           <div className="flex items-center justify-center bg-gray-100 mt-6">
-            <button className="flex items-center h-16 px-8 text-gray-500 transition duration-200 bg-gray-100 rounded-lg btn-light focus:outline-none">
+            <button className="flex items-center h-12 2xl:h-16 px-6 2xl:px-8 text-gray-500 transition duration-200 bg-gray-100 rounded-lg btn-light focus:outline-none">
               <span>Buy a realMonster</span>
             </button>
           </div>

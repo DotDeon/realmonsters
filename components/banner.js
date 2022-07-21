@@ -10,18 +10,19 @@ import cloud5 from '../assets/cloud5.png';
 
 function Banner() {
   return (
-    <div className="h-[700px] bg-rm_blue overflow-hidden">
+    <div className="h-[400px] 2xl:h-[700px] bg-rm_blue overflow-hidden items-end ">
       <div className="top-4 text-center justify-center items-center flex flex-col">
-        <Image src={logo} layout="fixed" width={825} height={364} />
-
-        <p className="text-white text-lg font-bold">
+        <div className="w-1/2 2xl:w-1/3 mt-24 2xl:mt-32">
+          <Image src={logo} layout="responsive" />
+        </div>
+        <p className="text-white text-sm 2xl:text-lg font-semibold 2xl:font-bold">
           1000 Real World NFTs. Collect your Real Monsters with RealMonseterNFT
         </p>
-        <button className="flex z-50 items-center justify-center h-16 px-8 text-green-100 transition duration-200 bg-rm_blue rounded-lg btn-green focus:outline-none mt-4">
+        <button className="flex z-50 items-center justify-center h-12 2xl:h-16 px-6 2xl:px-8 text-green-100 transition duration-200 bg-rm_blue rounded-lg btn-green focus:outline-none mt-4">
           <span className="text-white text-lg font-bold">Connect Wallet</span>
         </button>
       </div>
-      <div className="relative top-0 h-full w-screen mx-0 px-0 -mt-72">
+      <div className="relative h-full w-screen mx-0 px-0 2xl:-mt-72">
         <div className="z-0 absolute">
           <Image src={cloud1} className="animate-clouds1" />
         </div>
@@ -37,22 +38,6 @@ function Banner() {
         <div className="z-20 absolute">
           <Image src={cloud3} className="animate-clouds5" />
         </div>
-        {/* <Image
-            src={cloud2}
-            className="animate-cloud2 absolute bottom-2 max-w-full"
-          />
-          <Image
-            src={cloud3}
-            className="animate-cloud3 absolute bottom-2 max-w-full"
-          />
-          <Image
-            src={cloud4}
-            className="animate-cloud4 absolute bottom-2 max-w-full"
-          />
-          <Image
-            src={cloud5}
-            className="animate-cloud5 absolute bottom-2 max-w-full"
-          /> */}
       </div>
     </div>
   );

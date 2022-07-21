@@ -4,11 +4,11 @@ import about from '../assets/about.png';
 function Roadmap() {
   return (
     <div className="flex flex-col justify-center items-center w-screen bg-rm_pink ">
-      <div className="flex flex-col w-1/2 justify-center items-center p-24">
-        <h1 className="font-bold text-6xl text-rm_blue text-center">
+      <div className="flex flex-col 2xl:w-1/2 justify-center items-center p-16 2xl:p-24">
+        <h1 className="text-Montserrat justify-center text-center text-3xl md:text-xl 2xl:text-4xl text-rm_blue">
           The Real Monsters Mission
         </h1>
-        <p className="text-white w-2/3 text-center text-3xl mt-4">
+        <p className="text-white text-Montserrat md:text-xl 2xl:text-2xl text-center md:text-left mt-6 md:mt-12 leading-relaxed font-normal md:px-0 px-4 2xl:w-5/6 2xl:pr-20">
           We have set long term goals for the projects realization which will
           allow us to fund each set goalpost. Once we reach each sell-trough
           percentage, we will begin realizing the stated goal. With the set
@@ -33,7 +33,7 @@ function Roadmap() {
                     </div>
                   </div>
                 </div>
-                <div className="rounded-full bg-rm_blue border-white border-2 p-2 w-12 h-12 absolute left-1/2 -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
+                <div className="rounded-full bg-rm_blue border-white border-2 p-2 w-12 h-12 absolute left-1/2 -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center -mt-4 md:mt-0">
                   <p className="text-lg text-white p-4">10%</p>
                 </div>
               </div>
@@ -49,7 +49,7 @@ function Roadmap() {
                     </div>
                   </div>
                 </div>
-                <div className="rounded-full bg-rm_blue border-white border-2 p-2 w-12 h-12 absolute left-1/2 -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
+                <div className="rounded-full bg-rm_blue border-white border-2 p-2 w-12 h-12 absolute left-1/2 -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center -mt-4 md:mt-0">
                   <p className="text-lg text-white p-4">30%</p>
                 </div>
               </div>
@@ -65,7 +65,7 @@ function Roadmap() {
                     </div>
                   </div>
                 </div>
-                <div className="rounded-full bg-rm_blue border-white border-2 p-2 w-12 h-12 absolute left-1/2 -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
+                <div className="rounded-full bg-rm_blue border-white border-2 p-2 w-12 h-12 absolute left-1/2 -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center -mt-4 md:mt-0">
                   <p className="text-lg text-white p-4">60%</p>
                 </div>
               </div>
@@ -81,7 +81,7 @@ function Roadmap() {
                     </div>
                   </div>
                 </div>
-                <div className="rounded-full bg-rm_blue border-white border-2 p-2 w-12 h-12 absolute left-1/2 -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
+                <div className="rounded-full bg-rm_blue border-white border-2 p-2 w-12 h-12 absolute left-1/2 -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center -mt-4 md:mt-0">
                   <p className="text-lg text-white p-4">100%</p>
                 </div>
               </div>
