@@ -22,7 +22,7 @@ function Banner() {
           <span className="text-white text-lg font-bold">Connect Wallet</span>
         </button>
       </div>
-      <div className="relative h-full w-screen mx-0 px-0 mt-7 md:-mt-32 2xl:-mt-72">
+      <div className="relative h-full w-screen mx-0 px-0 mt-7 md:-mt-52 2xl:-mt-72">
         <div className="z-0 absolute">
           <Image src={cloud1} className="animate-clouds1" />
         </div>
