@@ -10,7 +10,7 @@ import cloud5 from '../assets/cloud5.png';
 
 function Banner() {
   return (
-    <div className="h-[400px] 2xl:h-[700px] bg-rm_blue overflow-hidden items-end ">
+    <div className="h-[400px] md:h-[600px] 2xl:h-[700px] bg-rm_blue overflow-hidden items-end ">
       <div className="top-4 text-center justify-center items-center flex flex-col">
         <div className="w-1/2 2xl:w-1/3 mt-24 2xl:mt-32">
           <Image src={logo} layout="responsive" />
