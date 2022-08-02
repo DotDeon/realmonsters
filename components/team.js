@@ -1,4 +1,3 @@
-import { useRouter } from 'next/dist/client/router';
 import Image from 'next/image';
 import about from '../assets/katie.jpg';
 // import { menuState1 } from '../atoms/navAtoms';
@@ -29,9 +28,9 @@ function Team() {
                   src={about}
                   layout="fixed"
                   objectFit="contain"
-                  width={330}
-                  height={250}
-                  className="rounded-3xl shadow-md"
+                  width={495}
+                  height={375}
+                  className="rounded-6xl shadow-md"
                 />
                 {/* </div> */}
                 {/* <!-- Description --> */}
