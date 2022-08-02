@@ -28,8 +28,8 @@ function Team() {
                   src={about}
                   layout="fixed"
                   objectFit="contain"
-                  width={495}
-                  height={375}
+                  width={330}
+                  height={250}
                   className="rounded-6xl shadow-md"
                 />
                 {/* </div> */}
