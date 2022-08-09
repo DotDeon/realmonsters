@@ -9,13 +9,13 @@ function About() {
   }, [activeSlide]);
 
   return (
-    <div className="relative h-[30vh] w-screen bg-rm_yellow">
+    <div className="relative md:h-[30vh] w-screen bg-rm_yellow">
       <div className="flex flex-col justify-center items-center pt-10">
-        <p className="font-Rancho justify-center text-center text-4xl 2xl:text-6xl text-rm_blue">
+        <p className="font-Rancho justify-center text-center text-xl md:text-4xl 2xl:text-6xl text-rm_blue">
           Who are The Monsters by Katie Eary
         </p>
       </div>
-      <div className="slide-container 2xl:mt-10">
+      <div className="slide-container 2xl:mt-10 pb-5">
         <div className="slide" pos="1">
           <div className="slide-1">
             <div className="vertical-line"></div>
@@ -29,7 +29,7 @@ function About() {
               leaveTo="opacity-0 translate-y-full"
             >
               {activeSlide === 1 && (
-                <p className="text-center font-Thasadith 2xl:text-xl">
+                <p className="text-center font-Thasadith mt-4 md:mt-0 2xl:text-xl">
                   A bestiary (actual term for collective of monsters) created by
                   Katie Eary. They linger in the most festering parts of London
                   that are no longer frequented. There are 10 types of Monster;
@@ -48,7 +48,7 @@ function About() {
                 </p>
               )}
               {activeSlide === 3 && (
-                <p className="text-center font-Thasadith 2xl:text-xl">
+                <p className="text-center font-Thasadith mt-4 md:mt-10 2xl:text-xl">
                   As a designer, Katie started playing with a concept to create
                   a physical being and this creation took the form of a monster
                   made from silicone. The use of material and colour was
@@ -58,7 +58,7 @@ function About() {
                 </p>
               )}
               {activeSlide === 4 && (
-                <p className="text-center font-Thasadith 2xl:text-xl mt-10">
+                <p className="text-center font-Thasadith mt-4 md:mt-10 2xl:text-xl">
                   The monsters are a tangible representation of strong female
                   led ideology, being created by Katie who built her brand from
                   the ground to its current status. The ethos is that women can
