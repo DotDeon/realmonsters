@@ -1,10 +1,8 @@
-import TypeIt from 'typeit-react';
-
 function Faq() {
   return (
-    <div className="flex relative flex-col items-center min-w-screen mt-10 faq bg-rm_green">
+    <div className="flex relative flex-col items-center min-w-screen pt-10 faq bg-rm_green">
       {/* <h1 className="text-white font-angkor text-4xl mt-16">FAQs</h1> */}
-      <p className="text-Montserrat justify-center text-center text-3xl md:text-xl 2xl:text-4xl text-rm_blue mt-12">
+      <p className="font-Rancho justify-center text-center text-3xl md:text-xl 2xl:text-6xl text-rm_blue mt-12">
         FAQs
       </p>
       <div className="flex min-w-screen relative flex-col py-10 bg-darkpurple px-10">
@@ -24,7 +22,7 @@ function Faq() {
               1. Question 1
             </label>
             <div className="tab-content overflow-hidden   leading-normal">
-              <p className="p-5 text-white text-lg">
+              <p className="p-5 font-Thasadith text-white text-lg">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
                 non congue purus. Sed sollicitudin, nibh vel luctus euismod,
                 eros leo fringilla felis, vel porta diam leo nec sem. Sed
@@ -54,7 +52,7 @@ function Faq() {
               2. Question 2
             </label>
             <div className="tab-content overflow-hidden   leading-normal">
-              <p className="p-5 text-white text-lg">
+              <p className="p-5 font-Thasadith text-white text-lg">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
                 non congue purus. Sed sollicitudin, nibh vel luctus euismod,
                 eros leo fringilla felis, vel porta diam leo nec sem. Sed
@@ -84,7 +82,7 @@ function Faq() {
               3. Question 3
             </label>
             <div className="tab-content overflow-hidden   leading-normal">
-              <p className="p-5 text-white text-lg">
+              <p className="p-5 font-Thasadith text-white text-lg">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
                 non congue purus. Sed sollicitudin, nibh vel luctus euismod,
                 eros leo fringilla felis, vel porta diam leo nec sem. Sed
@@ -114,7 +112,7 @@ function Faq() {
               4. Question 4
             </label>
             <div className="tab-content overflow-hidden   leading-normal">
-              <p className="p-5 text-white text-lg">
+              <p className="p-5 font-Thasadith text-white text-lg">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
                 non congue purus. Sed sollicitudin, nibh vel luctus euismod,
                 eros leo fringilla felis, vel porta diam leo nec sem. Sed
@@ -144,7 +142,7 @@ function Faq() {
               5. Question 5
             </label>
             <div className="tab-content overflow-hidden   leading-normal">
-              <p className="p-5 text-white text-lg">
+              <p className="p-5 font-Thasadith text-white text-lg">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
                 non congue purus. Sed sollicitudin, nibh vel luctus euismod,
                 eros leo fringilla felis, vel porta diam leo nec sem. Sed
@@ -174,7 +172,7 @@ function Faq() {
               6. Question 6
             </label>
             <div className="tab-content overflow-hidden   leading-normal">
-              <p className="p-5 text-white text-lg">
+              <p className="p-5 font-Thasadith text-white text-lg">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
                 non congue purus. Sed sollicitudin, nibh vel luctus euismod,
                 eros leo fringilla felis, vel porta diam leo nec sem. Sed
@@ -203,7 +201,7 @@ function Faq() {
               7. Question 7
             </label>
             <div className="tab-content overflow-hidden   leading-normal">
-              <p className="p-5 text-white text-lg">
+              <p className="p-5 font-Thasadith text-white text-lg">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
                 non congue purus. Sed sollicitudin, nibh vel luctus euismod,
                 eros leo fringilla felis, vel porta diam leo nec sem. Sed

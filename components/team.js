@@ -5,20 +5,20 @@ import about from '../assets/katie.jpg';
 
 function Team() {
   return (
-    <div className="flex items-center justify-center py-12 bg-gray-100">
+    <div className="flex items-center justify-center bg-gray-100">
       <div className="flex flex-col">
         <div className="flex flex-col mt-8">
           {/* <!-- Meet the Team --> */}
-          <div className="container max-w-7xl px-4">
+          <div className="max-w-7xl px-4">
             {/* <!-- Section Header --> */}
             <div className="flex flex-wrap justify-center text-center mb-24">
               <div className="w-full lg:w-6/12 px-4">
                 {/* <!-- Header --> */}
                 <div className="flex flex-col justify-center items-center md:text-left">
-                  <p className=" text-Montserrat justify-center text-center text-3xl md:text-xl 2xl:text-4xl text-rm_blue">
+                  <p className="justify-center text-center text-lg md:text-xl 2xl:text-3xl text-rm_blue font-Thasadith">
                     WHO IS
                   </p>
-                  <p className="text-Montserrat text-3xl md:text-4xl 2xl:text-5xl text-center md:text-left md:tracking-wide text-bold text-black mt-3 md:mt-6 pb-10">
+                  <p className="font-Rancho justify-center text-center text-3xl md:text-xl 2xl:text-6xl">
                     KATIE EARY
                   </p>
                 </div>
@@ -35,7 +35,7 @@ function Team() {
                 {/* </div> */}
                 {/* <!-- Description --> */}
               </div>
-              <p className="text-grey500 text-Montserrat md:text-xl 2xl:text-2xl text-center w-full px-10 2xl:px-32 mt-6 md:mt-12 leading-relaxed font-normal">
+              <p className="text-grey500 md:text-xl 2xl:text-2xl text-center w-full px-10 2xl:px-32 mt-6 md:mt-12 leading-relaxed font-normal font-Thasadith">
                 Graduating from the Royal Academy in 2008, Eary’s subsequent
                 winning of Newgen collections and collaboration with Kanye West
                 launched her onto the world’s stage. Katie has collaborated with

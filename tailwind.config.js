@@ -6,6 +6,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        Rancho: ['Rancho', 'cursive'],
+        Thasadith: ['Thasadith', 'sans-serif'],
+      },
       colors: {
         rm_yellow: '#fdd008',
         rm_green: '#90bb1e',

@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Thasadith&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -69,7 +72,7 @@ a {
   border-width: 1px; /*.border*/
   border-radius: 9999px; /*.rounded-full */
 
-  border-color: #b6b7ff; /*.border-grey*/
+  border-color: #ffffff; /*.border-grey*/
 }
 .tab input[type='radio'] + label::after {
   content: '\25BE';
@@ -77,18 +80,18 @@ a {
   border-width: 1px; /*.border*/
   border-radius: 9999px; /*.rounded-full */
 
-  border-color: #7ffdff; /*.border-grey*/
+  border-color: #248fb6; /*.border-grey*/
 }
 /* Icon formatting - open */
 .tab input[type='checkbox']:checked + label::after {
   transform: rotate(315deg);
-  background-color: #7ffdff; /*.bg-indigo*/
-  color: #b6b7ff; /*.text-grey-lightest*/
+  background-color: #248fb6; /*.bg-indigo*/
+  color: #ffffff; /*.text-grey-lightest*/
 }
 .tab input[type='radio']:checked + label::after {
   transform: rotateX(180deg);
-  background-color: #7ffdff; /*.bg-indigo*/
-  color: #b6b7ff; /*.text-grey-lightest*/
+  background-color: #248fb6; /*.bg-indigo*/
+  color: #ffffff; /*.text-grey-lightest*/
 }
 /* 
 
@@ -124,7 +127,7 @@ a {
 }
 
 .image__overlay--primary {
-  background: #7ffdff;
+  background: #248fb6;
 }
 
 .image__overlay > * {
@@ -153,25 +156,25 @@ a {
 .toggle-checkbox:checked {
   @apply: right-0 border-green-400;
   right: 0;
-  border-color: #7ffdff;
+  border-color: #248fb6;
 }
 .toggle-checkbox:checked + .toggle-label {
   @apply: bg-green-400;
-  background-color: #7ffdff;
+  background-color: #248fb6;
 }
 
 .btn-light {
-  box-shadow: 4px 4px 6px #d1d5db, inset -3px -3px 6px #d1d5db,
+  box-shadow: 4px 4px 6px #ffffff, inset -3px -3px 6px #ffffff,
     -4px -4px 6px #fff, inset 3px 3px 6px #fff;
 }
 
 .btn-light:hover {
-  box-shadow: 2px 2px 6px #d1d5db, inset -2px -2px 6px #d1d5db,
+  box-shadow: 2px 2px 6px #ffffff, inset -2px -2px 6px #ffffff,
     -2px -2px 6px #fff, inset 2px 2px 6px #fff;
 }
 
 .btn-light:active {
-  box-shadow: -2px -2px 6px #d1d5db, inset 2px 2px 6px #d1d5db, 2px 2px 6px #fff,
+  box-shadow: -2px -2px 6px #ffffff, inset 2px 2px 6px #ffffff, 2px 2px 6px #fff,
     inset -2px -2px 6px #fff;
 }
 
@@ -246,4 +249,196 @@ button:active span {
   100% {
     transform: translateX(100%);
   }
+}
+
+/* About Us */
+
+html,
+body {
+  margin: 0;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.slide-container {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide {
+  position: relative;
+  width: 100%;
+  height: 75%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide-toggle-container {
+  position: absolute;
+  width: 15%;
+  height: 100%;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide-toggle {
+  margin: 0.5em;
+  cursor: pointer;
+}
+
+.chevron {
+  fill: none;
+  stroke: rgba(0, 0, 0, 0.8);
+  stroke-width: 3;
+  transition: 0.2s all linear;
+}
+
+.slide-toggle:hover > .chevron {
+  stroke: rgba(0, 0, 0, 0.4);
+}
+
+.index {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 15%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* II. SLIDE 1 STYLES */
+
+.slide-1 {
+  position: relative;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide-1 > p {
+  text-align: center;
+  margin: 0;
+  margin-bottom: 25px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.slide-1 > h1 {
+  text-align: center;
+  margin: 20px 0px 10px 0px;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.vertical-line {
+  position: relative;
+  width: 2px;
+  height: 25%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* I. SLIDE 2 STYLES */
+
+.slide-2 {
+  position: relative;
+  width: 50%;
+  height: auto;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+}
+
+.vertical-line-container {
+  grid-column: 1 / span 3;
+  position: relative;
+  height: 25vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.vertical-line-container > .vertical-line {
+  width: 2px;
+  position: relative;
+  height: 75%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* IV. SLIDE 3 STYLES */
+
+.slide-3 {
+  position: relative;
+  width: 50%;
+  height: auto;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+}
+
+.slide-4 {
+  position: relative;
+  width: 50%;
+  height: auto;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+}
+
+.slide-5 {
+  position: relative;
+  width: 50%;
+  height: auto;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+}
+
+.slide-6 {
+  position: relative;
+  width: 50%;
+  height: auto;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+}
+
+.slide-7 {
+  position: relative;
+  width: 50%;
+  height: auto;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
 }
