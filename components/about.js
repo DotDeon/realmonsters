@@ -1,5 +1,5 @@
-import { Transition } from '@headlessui/react';
-import { useEffect, useState } from 'react';
+import { Transition } from "@headlessui/react";
+import { useEffect, useState } from "react";
 
 function About() {
   const [activeSlide, setActiiveSlide] = useState(1);
@@ -11,11 +11,11 @@ function About() {
   return (
     <div className="relative h-[30vh] w-screen bg-rm_yellow">
       <div className="flex flex-col justify-center items-center pt-10">
-        <p className="font-Rancho justify-center text-center text-3xl 2xl:text-6xl text-rm_blue">
+        <p className="font-Rancho justify-center text-center text-4xl 2xl:text-6xl text-rm_blue">
           Who are The Monsters by Katie Eary
         </p>
       </div>
-      <div className="slide-container mt-10">
+      <div className="slide-container 2xl:mt-10">
         <div className="slide" pos="1">
           <div className="slide-1">
             <div className="vertical-line"></div>
@@ -29,7 +29,7 @@ function About() {
               leaveTo="opacity-0 translate-y-full"
             >
               {activeSlide === 1 && (
-                <p className="text-center font-Thasadith text-xl">
+                <p className="text-center font-Thasadith 2xl:text-xl">
                   A bestiary (actual term for collective of monsters) created by
                   Katie Eary. They linger in the most festering parts of London
                   that are no longer frequented. There are 10 types of Monster;
@@ -40,7 +40,7 @@ function About() {
                 </p>
               )}
               {activeSlide === 2 && (
-                <p className="text-center font-Thasadith text-xl">
+                <p className="text-center font-Thasadith 2xl:text-xl">
                   Katie Eary is a female British designer, well established in
                   the world of fashion and on the catwalk. Creating major
                   celebrity collections for the likes of Kanye West, Katie is a
@@ -48,7 +48,7 @@ function About() {
                 </p>
               )}
               {activeSlide === 3 && (
-                <p className="text-center font-Thasadith text-xl">
+                <p className="text-center font-Thasadith 2xl:text-xl">
                   As a designer, Katie started playing with a concept to create
                   a physical being and this creation took the form of a monster
                   made from silicone. The use of material and colour was
@@ -58,7 +58,7 @@ function About() {
                 </p>
               )}
               {activeSlide === 4 && (
-                <p className="text-center font-Thasadith text-xl">
+                <p className="text-center font-Thasadith 2xl:text-xl mt-10">
                   The monsters are a tangible representation of strong female
                   led ideology, being created by Katie who built her brand from
                   the ground to its current status. The ethos is that women can
@@ -73,7 +73,7 @@ function About() {
                 </p>
               )}
               {activeSlide === 5 && (
-                <p className="text-center font-Thasadith text-xl">
+                <p className="text-center font-Thasadith 2xl:text-xl">
                   Female NFT artists account for a very small percentage of NFT
                   sales worldwide; Katies vision is an excellent introduction to
                   their workings and services, but there are many to empower
@@ -84,7 +84,7 @@ function About() {
                 </p>
               )}
               {activeSlide === 6 && (
-                <p className="text-center font-Thasadith text-xl">
+                <p className="text-center font-Thasadith 2xl:text-xl">
                   With this in mind, Katie has branded 5 of the 1000 unique
                   physical monster collectibles with a QR code that will award
                   the owner 5ETH each and a total of 50 out of the 1000 are
@@ -133,7 +133,7 @@ function About() {
           </svg>
         </div>
         <div className="index">
-          <p>{activeSlide}/7</p>
+          <p>{activeSlide}/6</p>
         </div>
       </div>
     </div>

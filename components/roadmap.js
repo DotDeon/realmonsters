@@ -2,10 +2,10 @@ function Roadmap() {
   return (
     <div className="flex flex-col justify-center items-center w-screen bg-rm_pink ">
       <div className="flex flex-col justify-center items-center p-16 2xl:p-18">
-        <h1 className="font-Rancho justify-center text-center text-3xl md:text-xl 2xl:text-6xl text-rm_green">
+        <h1 className="font-Rancho justify-center text-center text-4xl 2xl:text-6xl text-rm_green">
           The Real Monsters Mission
         </h1>
-        <p className="text-white text-center font-Thasadith md:text-xl 2xl:text-2xl text-center mt-6 md:mt-12 leading-relaxed font-normal md:px-0 px-4 2xl:w-5/6 2xl:pr-20">
+        <p className="text-white font-Thasadith md:text-xl 2xl:text-2xl text-center mt-6 md:mt-12 leading-relaxed font-normal md:px-0 px-4 2xl:w-5/6 2xl:pr-20">
           We have set long term goals for the projects realization which will
           allow us to fund each set goalpost. Once we reach each sell-trough
           percentage, we will begin realizing the stated goal. With the set

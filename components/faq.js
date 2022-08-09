@@ -2,7 +2,7 @@ function Faq() {
   return (
     <div className="flex relative flex-col items-center min-w-screen pt-10 faq bg-rm_green">
       {/* <h1 className="text-white font-angkor text-4xl mt-16">FAQs</h1> */}
-      <p className="font-Rancho justify-center text-center text-3xl md:text-xl 2xl:text-6xl text-rm_blue mt-12">
+      <p className="font-Rancho justify-center text-center text-4xl 2xl:text-6xl text-rm_blue mt-12">
         FAQs
       </p>
       <div className="flex min-w-screen relative flex-col py-10 bg-darkpurple px-10">

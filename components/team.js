@@ -1,5 +1,5 @@
-import Image from 'next/image';
-import about from '../assets/katie.jpg';
+import Image from "next/image";
+import about from "../assets/katie.jpg";
 // import { menuState1 } from '../atoms/navAtoms';
 // import { useRecoilState } from 'recoil';
 
@@ -15,10 +15,10 @@ function Team() {
               <div className="w-full lg:w-6/12 px-4">
                 {/* <!-- Header --> */}
                 <div className="flex flex-col justify-center items-center md:text-left">
-                  <p className="justify-center text-center text-lg md:text-xl 2xl:text-3xl text-rm_blue font-Thasadith">
+                  <p className="justify-center text-center text-lg 2xl:text-3xl text-rm_blue font-Thasadith">
                     WHO IS
                   </p>
-                  <p className="font-Rancho justify-center text-center text-3xl md:text-xl 2xl:text-6xl">
+                  <p className="font-Rancho justify-center text-center text-4xl 2xl:text-6xl">
                     KATIE EARY
                   </p>
                 </div>
