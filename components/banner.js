@@ -15,7 +15,7 @@ function Banner() {
         <div className="w-2/3 2xl:w-1/3 mt-12 2xl:mt-32">
           <Image src={logo} layout="responsive" />
         </div>
-        <p className="text-white text-sm 2xl:text-lg font-semibold 2xl:font-bold font-Thasadith">
+        <p className="text-white 2xl:mt-0 -mt-14 text-sm 2xl:text-lg font-semibold 2xl:font-bold font-Thasadith">
           1000 Real World NFTs. Collect your Real Monsters with RealMonseterNFT
         </p>
         <button className="flex z-50 items-center justify-center h-12 2xl:h-16 px-6 2xl:px-8 text-green-100 transition duration-200 bg-rm_blue rounded-lg btn-green focus:outline-none mt-4">
