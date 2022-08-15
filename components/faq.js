@@ -152,7 +152,7 @@ function Faq() {
             </label>
             <div className="tab-content overflow-hidden   leading-normal">
               <p className="p-5 font-Thasadith text-white text-lg">
-                We're limiting the NFTs to 10 per wallet to make sure everyone
+                We are limiting the NFTs to 10 per wallet to make sure everyone
                 gets a chance to own 1 of 1000 custom Real Monsters by Katie
                 Eary, but you can have as many wallets as you want
               </p>
