@@ -19,17 +19,11 @@ function Faq() {
               className="block p-5 leading-normal cursor-pointer text-white font-bold text-xl md:text-2xl"
               htmlFor="tab-multi-one"
             >
-              1. Question 1
+              1. How many Real Monsters are there
             </label>
             <div className="tab-content overflow-hidden   leading-normal">
               <p className="p-5 font-Thasadith text-white text-lg">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
-                non congue purus. Sed sollicitudin, nibh vel luctus euismod,
-                eros leo fringilla felis, vel porta diam leo nec sem. Sed
-                convallis enim tellus, nec facilisis sapien ultricies id. Donec
-                vel mauris lorem. Pellentesque tincidunt arcu sapien, non
-                tincidunt purus viverra a. Aliquam porta justo at feugiat
-                volutpat.
+                There are total of 1000 unique Real Monsters in our collection.
               </p>
             </div>
           </div>
@@ -49,17 +43,14 @@ function Faq() {
               className="block p-5 leading-normal cursor-pointer text-white font-bold text-xl md:text-2xl"
               htmlFor="tab-multi-two"
             >
-              2. Question 2
+              2. What are NFTs
             </label>
             <div className="tab-content overflow-hidden   leading-normal">
               <p className="p-5 font-Thasadith text-white text-lg">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
-                non congue purus. Sed sollicitudin, nibh vel luctus euismod,
-                eros leo fringilla felis, vel porta diam leo nec sem. Sed
-                convallis enim tellus, nec facilisis sapien ultricies id. Donec
-                vel mauris lorem. Pellentesque tincidunt arcu sapien, non
-                tincidunt purus viverra a. Aliquam porta justo at feugiat
-                volutpat.
+                NFT stands for(non-fungible token) which are unique digital
+                items that are stored and encrypted on the blockchain that
+                people can buy, own, and trade. They can get you access to the
+                things like websites, merchandise, and more.
               </p>
             </div>
           </div>
@@ -79,17 +70,13 @@ function Faq() {
               className="block p-5 leading-normal cursor-pointer text-white font-bold text-xl md:text-2xl"
               htmlFor="tab-multi-three"
             >
-              3. Question 3
+              3. How do I buy a Real Monster
             </label>
             <div className="tab-content overflow-hidden   leading-normal">
               <p className="p-5 font-Thasadith text-white text-lg">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
-                non congue purus. Sed sollicitudin, nibh vel luctus euismod,
-                eros leo fringilla felis, vel porta diam leo nec sem. Sed
-                convallis enim tellus, nec facilisis sapien ultricies id. Donec
-                vel mauris lorem. Pellentesque tincidunt arcu sapien, non
-                tincidunt purus viverra a. Aliquam porta justo at feugiat
-                volutpat.
+                All of the NFTs will be available for purchase on our website
+                through an initial sale. You will need to connect your Metamask
+                wallet on the Ethereum network to mint.
               </p>
             </div>
           </div>
@@ -109,17 +96,13 @@ function Faq() {
               className="block p-5 leading-normal cursor-pointer text-white font-bold text-xl md:text-2xl"
               htmlFor="tab-multi-four"
             >
-              4. Question 4
+              4. How will I claim my Real Monster toy?
             </label>
             <div className="tab-content overflow-hidden   leading-normal">
               <p className="p-5 font-Thasadith text-white text-lg">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
-                non congue purus. Sed sollicitudin, nibh vel luctus euismod,
-                eros leo fringilla felis, vel porta diam leo nec sem. Sed
-                convallis enim tellus, nec facilisis sapien ultricies id. Donec
-                vel mauris lorem. Pellentesque tincidunt arcu sapien, non
-                tincidunt purus viverra a. Aliquam porta justo at feugiat
-                volutpat.
+                Once the initial sale of the NFTs has been completed we will
+                provide a link on the website where you can go and claim your
+                Real Monster Toy and arange delivery to your house
               </p>
             </div>
           </div>
@@ -139,17 +122,13 @@ function Faq() {
               className="block p-5 leading-normal cursor-pointer text-white font-bold text-xl md:text-2xl"
               htmlFor="tab-multi-five"
             >
-              5. Question 5
+              5. How much will one Real Monster Cost
             </label>
             <div className="tab-content overflow-hidden   leading-normal">
               <p className="p-5 font-Thasadith text-white text-lg">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
-                non congue purus. Sed sollicitudin, nibh vel luctus euismod,
-                eros leo fringilla felis, vel porta diam leo nec sem. Sed
-                convallis enim tellus, nec facilisis sapien ultricies id. Donec
-                vel mauris lorem. Pellentesque tincidunt arcu sapien, non
-                tincidunt purus viverra a. Aliquam porta justo at feugiat
-                volutpat.
+                One Real Monster will cost you 0.5 ETH. This includes the
+                delivery and manufaturing of your own one of a kind hand made
+                toy
               </p>
             </div>
           </div>
@@ -169,17 +148,13 @@ function Faq() {
               className="block p-5 leading-normal cursor-pointer text-white font-bold text-xl md:text-2xl"
               htmlFor="tab-multi-six"
             >
-              6. Question 6
+              6. How many NFTs can I mint
             </label>
             <div className="tab-content overflow-hidden   leading-normal">
               <p className="p-5 font-Thasadith text-white text-lg">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
-                non congue purus. Sed sollicitudin, nibh vel luctus euismod,
-                eros leo fringilla felis, vel porta diam leo nec sem. Sed
-                convallis enim tellus, nec facilisis sapien ultricies id. Donec
-                vel mauris lorem. Pellentesque tincidunt arcu sapien, non
-                tincidunt purus viverra a. Aliquam porta justo at feugiat
-                volutpat.
+                We're limiting the NFTs to 10 per wallet to make sure everyone
+                gets a chance to own 1 of 1000 custom Real Monsters by Katie
+                Eary, but you can have as many wallets as you want
               </p>
             </div>
           </div>
@@ -198,18 +173,10 @@ function Faq() {
               className="block p-5 leading-normal cursor-pointer text-white font-bold text-xl md:text-2xl"
               htmlFor="tab-multi-seven"
             >
-              7. Question 7
+              7. When will The Real Monsters go on Sale
             </label>
             <div className="tab-content overflow-hidden   leading-normal">
-              <p className="p-5 font-Thasadith text-white text-lg">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
-                non congue purus. Sed sollicitudin, nibh vel luctus euismod,
-                eros leo fringilla felis, vel porta diam leo nec sem. Sed
-                convallis enim tellus, nec facilisis sapien ultricies id. Donec
-                vel mauris lorem. Pellentesque tincidunt arcu sapien, non
-                tincidunt purus viverra a. Aliquam porta justo at feugiat
-                volutpat.
-              </p>
+              <p className="p-5 font-Thasadith text-white text-lg">TBA</p>
             </div>
           </div>
         </div>
