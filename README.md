@@ -1,4 +1,4 @@
-#Katie Eary's Real Monsters NFT project
+# Katie Eary's Real Monsters NFT project
 
 Katie Eary's Real Monster is a unique NFT project that brings together the physical and digital worlds in a creative and innovative way. As the only developer on this project, I was responsible for building the frontend and the smart contract.
 
