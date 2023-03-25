@@ -1,34 +1,13 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+#Katie Eary's Real Monsters NFT project
 
-## Getting Started
+Katie Eary's Real Monster is a unique NFT project that brings together the physical and digital worlds in a creative and innovative way. As the only developer on this project, I was responsible for building the frontend and the smart contract.
 
-First, run the development server:
+The Real Monsters consists of 10 types of monsters, each with 1000 unique variations and 50 "truly rotten" examples. Each monster is available for purchase as an NFT and comes with a physical figurine that will be delivered to your address. These figurines are unique, limited edition pieces created by Katie Eary, and will not be reproduced.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+Katie Eary is a well-established British designer known for her celebrity collections and visionary designs. Her concept for the Real Monsters was to create a tangible representation of a strong female-led ideology and involve the community in collecting and trading these monsters. The monsters are made from silicone, with material and color playing a paramount role in the designs.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The project promotes the idea that women can create anything they imagine, no matter how small the start. Owning a Bestiary monster in both the physical and digital worlds is a unique way to celebrate this idea.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+As the only developer on this project, I built the frontend(NextJS & Tailwind) and the smart contract. The smart contract enables the creation, ownership, and trading of these unique NFTs. The frontend provides an intuitive and user-friendly interface for users to view and purchase the monsters.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Please note that the Bestiary project is no longer active and is available on GitHub for educational purposes only.
